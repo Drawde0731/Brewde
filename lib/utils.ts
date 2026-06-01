@@ -26,7 +26,7 @@ export const PAYMENT_LABELS: Record<PaymentMethod, string> = {
   cash: 'Cash',
   gcash: 'GCash',
   maya: 'Maya',
-  unionbank: 'UnionBank',
+  online_bank: 'Online Bank',
   card: 'Card',
 }
 

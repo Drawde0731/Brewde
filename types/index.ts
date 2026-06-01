@@ -2,7 +2,7 @@ export type UserRole = 'admin' | 'owner' | 'cashier'
 export type UserStatus = 'pending' | 'active' | 'rejected'
 export type RequestStatus = 'pending' | 'approved' | 'rejected'
 export type DiscountType = 'none' | 'pwd' | 'senior'
-export type PaymentMethod = 'cash' | 'gcash' | 'maya' | 'unionbank' | 'card'
+export type PaymentMethod = 'cash' | 'gcash' | 'maya' | 'online_bank' | 'card'
 export type ProductCategory = 'coffee' | 'food' | 'drink'
 
 export interface Tenant {

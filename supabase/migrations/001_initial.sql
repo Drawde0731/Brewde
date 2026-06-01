@@ -49,7 +49,7 @@ create table orders (
   discount_rate numeric(5,2) not null default 0,
   discount_amount numeric(10,2) not null default 0,
   total numeric(10,2) not null,
-  payment_method text not null default 'cash' check (payment_method in ('cash','gcash','maya','unionbank','card')),
+  payment_method text not null default 'cash' check (payment_method in ('cash','gcash','maya','online_bank','card')),
   created_at timestamptz not null default now()
 );
 
