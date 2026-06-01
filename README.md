@@ -14,13 +14,19 @@ Brewde is a fast POS system for cafés that simplifies orders, payments, and sal
 1. Install dependencies
 ```bash
 npm install
+```
 Setup environment variables
-cp .env.local.example .env.local
+```bash
+cp .env.local.example .env.local 
+```
 Run database migrations in Supabase
 supabase/migrations/001_initial.sql
 Start development server
+```bash
 npm run dev
-Features
+```
+## Features
+
 Multi-tenant café system
 Approval-based onboarding
 POS order system
