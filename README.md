@@ -1,5 +1,7 @@
 # Brewde
 
+https://brewde.vercel.app/
+
 Brewde is a fast POS system for cafés that simplifies orders, payments, and sales tracking in one clean dashboard, made with full-stack Next.js.
 
 ## Tech Stack
